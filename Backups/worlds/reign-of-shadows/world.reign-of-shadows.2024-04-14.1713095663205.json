@@ -1,0 +1,25 @@
+{
+  "title": "Reign of Shadows",
+  "id": "world.reign-of-shadows.2024-04-14.1713095663205",
+  "system": "dnd5e",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [],
+    "systems": [],
+    "recommends": [],
+    "conflicts": [],
+    "flags": {}
+  },
+  "description": "",
+  "version": "0",
+  "size": 1138235,
+  "note": "Migrate to 3.1.2",
+  "snapshotId": null,
+  "originalSize": 1771931,
+  "createdAt": 1713095663205,
+  "packageId": "reign-of-shadows",
+  "type": "world"
+}
