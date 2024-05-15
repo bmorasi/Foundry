@@ -1,3 +1,4 @@
 Backups filter=lfs diff=lfs merge=lfs -text
 Config filter=lfs diff=lfs merge=lfs -text
 FoundryVTT filter=lfs diff=lfs merge=lfs -text
+Logs filter=lfs diff=lfs merge=lfs -text

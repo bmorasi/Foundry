@@ -1,0 +1,96 @@
+{
+  "timestamp": 1715636615857,
+  "os": {
+    "platform": "win32",
+    "version": "10.0.19045",
+    "node": "18.17.1"
+  },
+  "foundry": {
+    "generation": 11,
+    "build": 315,
+    "channel": "stable",
+    "hosting": null
+  },
+  "modules": {
+    "boss-loot-magic-items-free": {
+      "version": "11.6.0"
+    },
+    "combat-carousel": {
+      "version": "0.3.3"
+    },
+    "dae": {
+      "version": "11.3.22"
+    },
+    "dfreds-convenient-effects": {
+      "version": "6.0.3"
+    },
+    "dice-calculator": {
+      "version": "2.1.9"
+    },
+    "dice-so-nice": {
+      "version": "4.6.10"
+    },
+    "drag-ruler": {
+      "version": "1.13.8"
+    },
+    "effectmacro": {
+      "version": "11.2.2"
+    },
+    "fxmaster": {
+      "version": "4.0.2"
+    },
+    "gm-screen": {
+      "version": "4.0.4"
+    },
+    "JB2A_DnD5e": {
+      "version": "0.6.7"
+    },
+    "lib-wrapper": {
+      "version": "1.12.13.0"
+    },
+    "lootsheet-simple": {
+      "version": "11.300.1"
+    },
+    "midi-qol": {
+      "version": "11.4.27.3"
+    },
+    "plutonium": {
+      "version": "1.80.0"
+    },
+    "pointer": {
+      "version": "2.6.0"
+    },
+    "ready-set-roll-5e": {
+      "version": "3.0.14"
+    },
+    "scene-transitions": {
+      "version": "0.5.3"
+    },
+    "sequencer": {
+      "version": "3.1.4"
+    },
+    "socketlib": {
+      "version": "1.0.13"
+    },
+    "times-up": {
+      "version": "11.3.11"
+    },
+    "vision-5e": {
+      "version": "1.14.3"
+    },
+    "vtta-tokenizer": {
+      "version": "4.2.13"
+    }
+  },
+  "systems": {
+    "dnd5e": {
+      "version": "3.1.2",
+      "playtime": 390280
+    }
+  },
+  "worlds": {},
+  "playtime": {
+    "total": 390280,
+    "max": 345581
+  }
+}
