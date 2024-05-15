@@ -1,0 +1,12 @@
+{
+  "times-up.Debug.Name": "Debug",
+  "times-up.Debug.Hint": "Choose the amount of debug to display",
+  "times-up.TimesUpEnabled.Name": "Enable Times Up",
+  "times-up.TimesUpEnabled.Hint": "Enable Auto expiry and modificaiton of effects. The chnges to passive effects require this eneabled",
+  "times-up.EnablePassiveEffects.Name": "Set start for transfer effects",
+  "times-up.EnablePassiveEffects.Hint": "When an expired active effect is enabled update it's start time to the current world/combat time",
+  "times-up.UpdatePassiveEffects.Name": "Update passive effects",
+  "times-up.UpdatePassiveEffects.Hint": "The duration type of passive effects will be changed to rounds/seconds if the token is in (or enters) combat/leaves combat. See also below",
+  "times-up.MaxRoundsToConvert.Name": "Max rounds to convert",
+  "times-up.MaxRoundsToConvert.Hint": "If the duration in seconds (remaining duration for non transfer effeccts) is <= this number of rounds it will be converted to rounds for combat"
+}

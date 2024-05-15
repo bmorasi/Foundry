@@ -2,4 +2,3 @@ node_modules
 Logs/debug.log
 Logs/error.log
 Config/license.json
-Data/modules

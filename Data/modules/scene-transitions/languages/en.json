@@ -1,0 +1,16 @@
+{
+  "scene-transitions.setting.show-journal-header-transition.name": "Display Journal Button",
+  "scene-transitions.setting.show-journal-header-transition.hint": "Enable to display a 'Play as Transition' button on journal windows that when clicked will play the selected page like a scene transition",
+  "scene-transitions.setting.resetAllSettings.name": "Reset settings to default",
+  "scene-transitions.setting.resetAllSettings.label": "Reset Settings to Default",
+  "scene-transitions.setting.resetAllSettings.hint": "This will reset all of the settings of back to the active game system's default.",
+  "scene-transitions.setting.debug.name": "Enable Debugging",
+  "scene-transitions.setting.debug.label": "Prints debug messages to the console",
+  "scene-transitions.setting.debug.hint": "Enable to help debug issues with this module, otherwise disable this option during normal use",
+
+  "scene-transitions.label.editTransition": "Edit Transition",
+  "scene-transitions.label.deleteTransition": "Delete Transition",
+  "scene-transitions.label.playTransition": "Play Transition",
+  "scene-transitions.label.playTransitionFromJournal": "Play Transition From Journal",
+  "scene-transitions.scene.config.title": "Scene Transitions"
+}

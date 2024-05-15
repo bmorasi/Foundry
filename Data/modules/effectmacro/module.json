@@ -1,0 +1,36 @@
+{
+    "id": "effectmacro",
+    "title": "Effect Macro",
+    "version": "11.2.2",
+    "authors": [
+        {
+            "name": "Zhell",
+            "url": "https://github.com/krbz999",
+            "discord": "zhell9201",
+            "ko-fi": "https://ko-fi.com/zhell",
+            "patreon": "https://patreon.com/zhell"
+        }
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "maximum": "11",
+        "verified": "11"
+    },
+    "esmodules": [
+        "scripts/module.mjs"
+    ],
+    "styles": [
+        "styles/styles.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "url": "https://github.com/krbz999/effectmacro",
+    "manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json",
+    "download": "https://github.com/krbz999/effectmacro/releases/download/v11.2.2/module.zip"
+}

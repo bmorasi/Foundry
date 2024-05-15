@@ -1,0 +1,33 @@
+{
+  "Localization Provided By": "Brother Sharp",
+  "DICE_TRAY": {
+    "Adv": "有利",
+    "Advantage": "有利 (kh)",
+    "Disadvantage": "不利 (kl)",
+    "Dis": "不利",
+    "For": "幸運",
+    "Fortune": "幸運 (kh)",
+    "Misfortune": "不運 (kl)",
+    "Mis": "不運",
+    "Wild": "Wild",
+    "Ace": "Ace",
+    "WildDie": "ワイルドダイス",
+    "ExplodingDie": "降り足しダイス",
+    "PlusOneDie": "+1d",
+    "MinusOneDie": "-1d",
+    "PlusOneDieLong": "ダイス面数を増やす",
+    "MinusOneDieLong": "ダイス面数を減らす",
+    "del": "削除",
+    "clear": "クリア",
+    "SETTINGS": {
+      "enableDiceTray": {
+        "name": "Dice Tray有効化",
+        "hint": "チャットメッセージの下にダイス･トレイを表示します (再読み込みが必要です)｡"
+      },
+      "enableDiceCalculator": {
+        "name": "ダイス電卓有効化",
+        "hint": "チャットボックスの左上にある20面体アイコンをクリックするとダイス電卓が出現するようになります。（要再読み込み）"
+      }
+    }
+  }
+}

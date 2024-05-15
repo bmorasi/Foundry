@@ -1,0 +1,100 @@
+{
+    "COMBAT_CAROUSEL": {
+        "SETTINGS": {
+            "AboutN": "About",
+            "AboutH": "Info about Combat Carousel",
+            "EnableModuleN": "Enable Combat Carousel",
+            "EnableModuleH": "Enables module functionality",
+            "OverlayConfigH": "Open the form to configure the Combatant Overlay",
+            "CollapseNavN": "Collapse Navigation Bar",
+            "CollapseNavH": "Collapse the Scene Navigation Bar when Combat Carousel is rendered",
+            "ShowBar1N": "Show Resource Bar 1",
+            "ShowBar1H": "Shows resource bar (if configured). Options are: Always: always show the bar (if any). Active Combatant: only show the bar for the Active Combatant. Hover: only show the bar on hover. Never: never show the bar. Note: additional GM settings may restrict bar visibility.",
+            "Bar1PermissionN": "Player Bar 1 Permissions",
+            "Bar1PermissionH": "Define what circumstances to show bar 1 to players. All: show bars on all Combatants. Owned: bars shown for any tokens the player owns. Observer: bars shown for any tokens the player has observer permission on. None: Do not show players any bars.",
+            "ShowOverlayN": "Show Overlay",
+            "ShowOverlayH": "Shows overlay (if configured). Options are: Always: always show the overlay. Active Combatant: only show the overlay for the Active Combatant. Hover: only show the overlay on hover. Never: never show the overlay. Note: additional GM settings may restrict overlay visibility.",
+            "ShowEffectsN": "Show Effects",
+            "ShowEffectsH": "Shows Active Effects in the Carousel. Works best if Active Effects are used by conditions and similar purposes. All: Show All Effects. None: Show No Effects. Active: Show Only Active Effects. Active and Passive Effects: Show Effects which are either Active or Passive (ie. ignore Inactive Effects).",
+            "OverlayPermissionN": "Player Overlay Permissions",
+            "OverlayPermissionH": "Define what circumstances to show Overlay to players. All: show overlay on all Combatants. Owner: overlay shown for any tokens the player owns. Observer: overlay shown for any tokens the player has observer permission on. Limited: overlay shown for any tokens the player has limited permission on. None: Do not show players any overlay.",
+            "Bar1AttributeN": "Bar 1 Attribute",
+            "Bar1AttributeH": "Enter a path to an Actor attribute to use for the bar. Single value attributes will show a single number. Attributes with a value and a max property will show a meter that depletes as the value decreases (eg. health).",
+            "Bar1TitleN": "Bar 1 Name",
+            "Bar1TitleH": "The name to be displayed on the bar (eg. HP)",
+            "ShowInitiativeN": "Show Initiative",
+            "ShowInitiativeH": "Shows initiative value (if any). Options are: Always: always show the value (if any). Active Combatant: only show the value for the Active Combatant. Hover: only show the value on hover. Never: never show the value.",
+            "ShowInitiativeIconN": "Show Initiative Icon",
+            "ShowInitiativeIconH": "Shows initiative icon (if any). Options are: Always: always show the icon (if any). With Initiative Value: show icon when initiative is shown. For Unrolled Combatants: show icon when combatant has no initiative value. Never: never show the icon",
+            "InitiativePermissionN": "Player Initiative Permission",
+            "InitiativePermissionH": "Define what circumstances to show Initiative to players. All: show initiative on all Combatants. Owner: initiative shown for any tokens the player owns. Observer: initiative shown for any tokens the player has observer permission on. Limited: overlay shown for any tokens the player has limited permission on. None: Do not show players any initiative.",
+            "ImageTypeN": "Combatant Image",
+            "ImageTypeH": "Select which Image to use for Combatants in the Carousel. Options are: Actor: the Actor's image. Token Actor: the Token Actor's image (will show Actor image if Token Actor image not set). Token: The token's image",
+            "CarouselSizeN": "Carousel Size",
+            "CarouselSizeH": "The size of the Carousel on the screen. HUD/Control elements are not scaled.",
+            "ControlActiveCombatantTokenN": "Control Active Combatant's Token",
+            "ControlActiveCombatantTokenH": "Enable to automatically control (select) the token associated to the currently Active Combatant.",
+            "PanOnClickN": "Pan on Card Click",
+            "PanOnClickH": "Pans to the matching token when a card is clicked (note: the token must be 'visible' to the current user)",
+            "AlwaysOnTopN": "Always On Top",
+            "AlwaysOnTopH": "Always render the Carousel above other UI elements.",
+            "OpenOnCombatCreateN": "Open Combat Carousel on Combat Creation",
+            "OpenOnCombatCreateH": "Opens the Carousel when a Combat is created"
+        },
+
+        "CAROUSEL": {
+            "BeginCombat": "Begin Combat",
+            "NextTurn": "Next Turn",
+            "PreviousTurn": "Previous Turn",
+            "NextRound": "Next Round",
+            "PreviousRound": "Previous Round",
+            "NextRoundTooltip": "Click to proceed to Next Round",
+            "PreviousRoundTooltip": "Click to return to Previous Round",
+            "ToggleHint": "Click to hide/unhide, Right-click for config",
+            "EndEncounter": "Click to End Encounter",
+            "DragTooltip": "Click and drag to move, right-click to reset position",
+
+            "Controls.CreateEncounter": "Create Encounter",
+            "Controls.DeleteEncounter": "Delete Encounter",
+            "Controls.NextEncounter": "Next Encounter",
+            "Controls.PreviousEncounter": "Previous Encounter",
+            "Controls.RollAll": "Roll All",
+            "Controls.RollNPCs": "Roll NPCs",
+            "Controls.ResetAll": "Reset All",
+            "Controls.EncounterConfig": "Combat Tracker Settings"
+        },
+
+        "COMBATANT_CARD": {
+            "ActiveTurn": "Active Turn",
+            "Controls.Hide": "Toggle Visibility",
+            "Controls.Defeated": "Mark Defeated",
+            "Controls.Remove": "Remove from Encounter",
+            "RollInitiative": "Click to Roll",
+            "EditInitiative": "Click to Edit, Right-Click to reset (GM Only)"
+        },
+
+        "ABOUT.Label": "About Combat Carousel",
+
+        "CONFIG_FORM.ResourceBars": "Resource Bars",
+        "CONFIG_FORM.ResourceBar1": "Resource Bar 1",
+
+        "OVERLAY_CONFIG.Title": "Combat Carousel | Overlay Config",
+        "OVERLAY_CONFIG.Name": "Overlay Config",
+        
+        "TOGGLE_BUTTON.Tooltip": "Combat Carousel - click to toggle visibility, right-click to reset position",
+
+        "WORDS": {
+            "Save": "Save",
+            "Cancel": "Cancel",
+            "Hidden": "Hidden",
+            "Defeated": "Defeated",
+            "Encounter": "Encounter",
+            "Round": "Round",
+            "Turn": "Turn",
+            "Property": "Property",
+            "Name": "Name",
+            "Value": "Value",
+            "BrowseFiles": "Browse Files"
+        }
+    }
+}

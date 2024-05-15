@@ -1,0 +1,28 @@
+<fieldset class="effectmacro">
+  <legend>{{localize "EFFECTMACRO.ModuleTitle"}}</legend>
+  {{#each used}}
+  <div class="form-group used-option">
+    <div class="form-fields">
+      <span class="label">{{localize (concat "EFFECTMACRO." this)}}</span>
+      <a data-action="macro-edit" data-key="{{this}}"><i class="fa-solid fa-edit"></i></a>
+      <a data-action="macro-delete" data-key="{{this}}"><i class="fa-solid fa-trash"></i></a>
+    </div>
+  </div>
+  {{/each}}
+  {{#if unused.length}}
+  <div class="form-group">
+    <span class="label">{{localize "EFFECTMACRO.AddAnother"}}</span>
+    <div class="form-fields">
+      <select class="unused-option">
+        {{#each unused}}
+        <optgroup label="{{localize label}}">
+          {{selectOptions triggers localize=true nameAttr="key" labelAttr="label"}}
+        </optgroup>
+        {{/each}}
+      </select>
+      <a data-action="macro-add"><i class="fa-solid fa-plus"></i></a>
+    </div>
+  </div>
+  {{/if}}
+  </div>
+</fieldset>

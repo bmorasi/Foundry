@@ -1,0 +1,37 @@
+{
+	"id": "times-up",
+	"title": "Times Up",
+	"description": "Active expiry expiration",
+	"version": "11.3.11",
+  "compatibility": {
+		"minimum": "11",
+		"verified": "11.315",
+		"maximum": "12.999"
+	},
+	"authors": [{ "name": "tposney" }],
+	"scripts": [],
+	"esmodules": ["times-up.js"],
+	"styles": ["times-up.css"],
+	"packs": [],
+	"relationships": {
+		"requires": [
+			{ "id": "lib-wrapper", "type": "module" }
+		]
+	},
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"license": "",
+	"readme": "https://gitlab.com/tposney/times-up/dndv3/master/Readme.md",
+	"bugs": "https://gitlab.com/tposney/times-up/-/issues",
+	"allowBugReporter": true,
+	"changelog": "https://gitlab.com/tposney/times-up/dndv3/Changelog.md",
+	"socket": true,
+	"url": "https://gitlab.com/tposney/times-up",
+	"manifest": "https://gitlab.com/tposney/times-up/raw/dndv3/package/module.json",
+	"download": "https://gitlab.com/tposney/times-up/raw/dndv3/package/times-up-v11.3.11.zip"
+}

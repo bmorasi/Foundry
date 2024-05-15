@@ -1,0 +1,30 @@
+{
+  "DICE_TRAY": {
+    "Adv": "Van",
+    "Advantage": "Vantaggio (kh)",
+    "Disadvantage": "Svantaggio (kl)",
+    "Dis": "Sva",
+    "For": "For",
+    "Fortune": "Fortuna (kh)",
+    "Misfortune": "Sfortuna (kl)",
+    "Mis": "Sfo",
+    "Roll": "Tira",
+    "RollDice": "Tira Dado",
+    "Wild": "Wild",
+    "Ace": "Ace",
+    "WildDie": "Wild Die",
+    "ExplodingDie": "Exploding Die",
+    "del": "canc",
+    "clear": "pulisci",
+    "SETTINGS": {
+      "enableDiceTray": {
+        "name": "Abilita Set di Dadi",
+        "hint": "Abilita la visualizzazione di un set di dadi sotto l'area dei messaggi di chat (richiede il ricaricamento)."
+      },
+      "enableDiceCalculator": {
+        "name": "Abilita Calcolatore Dadi",
+        "hint": "Abilita la visualizzazione di una finestra di dialogo per il calcolo dei dadi facendo clic sull'icona d20 vicino alla finestra della chat (richiede il ricaricamento)."
+      }
+    }
+  }
+}

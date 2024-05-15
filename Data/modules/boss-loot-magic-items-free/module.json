@@ -1,0 +1,151 @@
+{
+  "id": "boss-loot-magic-items-free",
+  "title": "Boss Loot Interactive Magic Items, Free Pack",
+  "description": "<p>A module of unique, fully automated and powerful items for D&amp;D 5e, perfect for enhancing any adventurer's capabilities.</p><p>You can support our work on <a href=\"https://www.patreon.com/BossLoot\">Patreon</a> where you will find many more ready to use items!</p><p>Join our <a href=\"https://discord.gg/Cg8WEDbCua\">Discord server</a> for any further questions.</p>",
+  "version": "11.6.0",
+  "socket": true,
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "12"
+  },
+  "packs": [
+    {
+      "name": "boss-loot-items-free",
+      "label": "Boss Loot Magic Items, Free Pack",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "boss-loot-journal-free",
+      "label": "Boss Loot Journal",
+      "path": "packs/journal-entries",
+      "system": "dnd5e",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Boss Loot Free",
+      "sorting": "a",
+      "color": "#79519c",
+      "packs": [
+        "boss-loot-items-free",
+        "boss-loot-journal-free"
+      ],
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "2.2.0",
+          "verified": "3.1.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "dae",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/dae/raw/v10/package/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/times-up/raw/v10/package/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "manifest": "https://github.com/DFreds/dfreds-convenient-effects/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "effectmacro",
+        "type": "module",
+        "manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "manifest": "https://gitlab.com/tposney/midi-qol/raw/v10/package/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/bossLoot.js"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/boss-loot-magic-items-free/artwork/000-logo/setup-logo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "quantiq",
+      "url": "https://www.patreon.com/BossLoot",
+      "discord": "https://discord.gg/Cg8WEDbCua",
+      "flags": {}
+    },
+    {
+      "name": "razvani",
+      "url": "https://www.patreon.com/BossLoot",
+      "discord": "https://discord.gg/Cg8WEDbCua",
+      "flags": {}
+    },
+    {
+      "name": "avatarart",
+      "url": "https://www.patreon.com/BossLoot",
+      "discord": "https://discord.gg/Cg8WEDbCua",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/boss-loot/FoundryVTT-Items",
+  "bugs": "https://github.com/boss-loot/FoundryVTT-Items",
+  "manifest": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/latest/download/module.json",
+  "download": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/download/11.6.0/boss-loot-magic-items-free.zip"
+}
