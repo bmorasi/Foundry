@@ -1,0 +1,21 @@
+2024/05/13-20:09:45.689 2510 Recovering log #213
+2024/05/13-20:09:45.704 2510 Delete type=0 #213
+2024/05/13-20:09:45.705 2510 Delete type=3 #211
+2024/05/13-23:13:15.108 5054 Level-0 table #217: started
+2024/05/13-23:13:15.108 5054 Level-0 table #217: 0 bytes OK
+2024/05/13-23:13:15.113 5054 Delete type=0 #215
+2024/05/13-23:13:15.120 5054 Manual compaction at level-0 from '!fog!0R99FUbRe4gTwv8L' @ 72057594037927935 : 1 .. '!fog!zKwTe4kkhfoR7G4i' @ 0 : 0; will stop at '!fog!2z2XvpT4Z0mfsvQ1' @ 170 : 1
+2024/05/13-23:13:15.120 5054 Compacting 1@0 + 0@1 files
+2024/05/13-23:13:15.136 5054 Generated table #218@0: 1 keys, 1014 bytes
+2024/05/13-23:13:15.136 5054 Compacted 1@0 + 0@1 files => 1014 bytes
+2024/05/13-23:13:15.140 5054 compacted to: files[ 0 1 2 0 0 0 0 ]
+2024/05/13-23:13:15.140 5054 Delete type=2 #212
+2024/05/13-23:13:15.194 5054 Manual compaction at level-0 from '!fog!2z2XvpT4Z0mfsvQ1' @ 170 : 1 .. '!fog!zKwTe4kkhfoR7G4i' @ 0 : 0; will stop at (end)
+2024/05/13-23:13:15.209 5054 Manual compaction at level-1 from '!fog!0R99FUbRe4gTwv8L' @ 72057594037927935 : 1 .. '!fog!zKwTe4kkhfoR7G4i' @ 0 : 0; will stop at '!fog!2z2XvpT4Z0mfsvQ1' @ 170 : 1
+2024/05/13-23:13:15.209 5054 Compacting 1@1 + 1@2 files
+2024/05/13-23:13:15.216 5054 Generated table #219@1: 25 keys, 208918 bytes
+2024/05/13-23:13:15.216 5054 Compacted 1@1 + 1@2 files => 208918 bytes
+2024/05/13-23:13:15.219 5054 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/05/13-23:13:15.221 5054 Delete type=2 #196
+2024/05/13-23:13:15.222 5054 Delete type=2 #218
+2024/05/13-23:13:15.229 5054 Manual compaction at level-1 from '!fog!2z2XvpT4Z0mfsvQ1' @ 170 : 1 .. '!fog!zKwTe4kkhfoR7G4i' @ 0 : 0; will stop at (end)

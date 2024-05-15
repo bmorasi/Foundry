@@ -1,0 +1,64 @@
+{
+  "title": "Reign of Shadows",
+  "id": "reign-of-shadows",
+  "system": "dnd5e",
+  "joinTheme": "default",
+  "coreVersion": "11.315",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "systemVersion": "3.1.2",
+  "lastPlayed": "Mon May 13 2024 23:43:41 GMT+0200 (Central European Summer Time)",
+  "playtime": 345581,
+  "packs": [
+    {
+      "label": "Aeo",
+      "type": "Actor",
+      "name": "aeo",
+      "path": "packs/aeo",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Item Aeo",
+      "type": "Item",
+      "name": "item-aeo",
+      "path": "packs/item-aeo",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Items",
+      "type": "Item",
+      "name": "items",
+      "path": "packs/items",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Feats",
+      "type": "Item",
+      "name": "feats",
+      "path": "packs/feats",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}

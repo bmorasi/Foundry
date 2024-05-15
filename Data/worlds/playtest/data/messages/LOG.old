@@ -1,0 +1,24 @@
+2024/05/12-11:35:56.285 2f28 Recovering log #7
+2024/05/12-11:35:56.286 2f28 Level-0 table #9: started
+2024/05/12-11:35:56.294 2f28 Level-0 table #9: 854 bytes OK
+2024/05/12-11:35:56.303 2f28 Delete type=0 #7
+2024/05/12-11:35:56.303 2f28 Delete type=3 #6
+2024/05/12-23:59:51.813 aa8 Level-0 table #12: started
+2024/05/12-23:59:51.851 aa8 Level-0 table #12: 1022094 bytes OK
+2024/05/12-23:59:51.857 aa8 Delete type=0 #10
+2024/05/12-23:59:51.931 aa8 Manual compaction at level-0 from '!messages!01HRLbr3ChNKWP15' @ 72057594037927935 : 1 .. '!messages!zqcZNp419TH5ZwVD' @ 0 : 0; will stop at '!messages!UteOP2cnOK97SLUF' @ 8 : 1
+2024/05/12-23:59:51.931 aa8 Compacting 2@0 + 0@1 files
+2024/05/12-23:59:52.000 aa8 Generated table #13@0: 794 keys, 567169 bytes
+2024/05/12-23:59:52.063 aa8 Compacted 2@0 + 0@1 files => 567169 bytes
+2024/05/12-23:59:52.064 aa8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/12-23:59:52.066 aa8 Delete type=2 #9
+2024/05/12-23:59:52.066 aa8 Delete type=2 #12
+2024/05/12-23:59:52.084 aa8 Manual compaction at level-0 from '!messages!UteOP2cnOK97SLUF' @ 8 : 1 .. '!messages!zqcZNp419TH5ZwVD' @ 0 : 0; will stop at (end)
+2024/05/12-23:59:52.241 aa8 Manual compaction at level-1 from '!messages!01HRLbr3ChNKWP15' @ 72057594037927935 : 1 .. '!messages!zqcZNp419TH5ZwVD' @ 0 : 0; will stop at '!messages!zqcZNp419TH5ZwVD' @ 1197 : 1
+2024/05/12-23:59:52.241 aa8 Compacting 1@1 + 1@2 files
+2024/05/12-23:59:52.268 aa8 Generated table #14@1: 725 keys, 563707 bytes
+2024/05/12-23:59:52.268 aa8 Compacted 1@1 + 1@2 files => 563707 bytes
+2024/05/12-23:59:52.276 aa8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/12-23:59:52.276 aa8 Delete type=2 #5
+2024/05/12-23:59:52.277 aa8 Delete type=2 #13
+2024/05/12-23:59:52.277 aa8 Manual compaction at level-1 from '!messages!zqcZNp419TH5ZwVD' @ 1197 : 1 .. '!messages!zqcZNp419TH5ZwVD' @ 0 : 0; will stop at (end)

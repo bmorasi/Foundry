@@ -1,0 +1,33 @@
+2024/05/13-20:09:44.393 2510 Recovering log #252
+2024/05/13-20:09:44.410 2510 Level-0 table #254: started
+2024/05/13-20:09:44.454 2510 Level-0 table #254: 983984 bytes OK
+2024/05/13-20:09:44.468 2510 Delete type=0 #252
+2024/05/13-20:09:44.469 2510 Delete type=3 #250
+2024/05/13-20:10:08.751 5054 Compacting 1@0 + 1@1 files
+2024/05/13-20:10:08.903 5054 Generated table #256@0: 51 keys, 115055 bytes
+2024/05/13-20:10:08.903 5054 Compacted 1@0 + 1@1 files => 115055 bytes
+2024/05/13-20:10:08.904 5054 compacted to: files[ 0 1 2 0 0 0 0 ]
+2024/05/13-20:10:08.905 5054 Delete type=2 #251
+2024/05/13-20:10:08.905 5054 Delete type=2 #254
+2024/05/13-20:10:08.928 5054 Compacting 1@1 + 2@2 files
+2024/05/13-20:10:09.067 5054 Generated table #257@1: 1613 keys, 2127012 bytes
+2024/05/13-20:10:09.103 5054 Generated table #258@1: 235 keys, 191264 bytes
+2024/05/13-20:10:09.104 5054 Compacted 1@1 + 2@2 files => 2318276 bytes
+2024/05/13-20:10:09.106 5054 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/05/13-20:10:09.106 5054 Delete type=2 #246
+2024/05/13-20:10:09.111 5054 Delete type=2 #247
+2024/05/13-20:10:09.112 5054 Delete type=2 #256
+2024/05/13-23:13:14.571 5054 Level-0 table #260: started
+2024/05/13-23:13:14.628 5054 Level-0 table #260: 1461820 bytes OK
+2024/05/13-23:13:14.641 5054 Delete type=0 #255
+2024/05/13-23:13:14.954 5054 Manual compaction at level-0 from '!actors!0OjyqjC99L2rD9aE' @ 72057594037927935 : 1 .. '!actors.items.effects!vPDYFqNt2EaGEsG7.vSM6as5sVppUkYUk.dNSELIYDQMBopj0Z' @ 0 : 0; will stop at (end)
+2024/05/13-23:13:14.968 5054 Manual compaction at level-1 from '!actors!0OjyqjC99L2rD9aE' @ 72057594037927935 : 1 .. '!actors.items.effects!vPDYFqNt2EaGEsG7.vSM6as5sVppUkYUk.dNSELIYDQMBopj0Z' @ 0 : 0; will stop at '!actors.items.effects!kKj8TKyBkfR0Xtys.wqWYVH0TRMECHo8E.uThvwdcuBRPLlUvW' @ 13852 : 1
+2024/05/13-23:13:14.968 5054 Compacting 1@1 + 2@2 files
+2024/05/13-23:13:15.086 5054 Generated table #261@1: 1600 keys, 2130497 bytes
+2024/05/13-23:13:15.103 5054 Generated table #262@1: 373 keys, 352314 bytes
+2024/05/13-23:13:15.103 5054 Compacted 1@1 + 2@2 files => 2482811 bytes
+2024/05/13-23:13:15.105 5054 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/05/13-23:13:15.106 5054 Delete type=2 #257
+2024/05/13-23:13:15.107 5054 Delete type=2 #258
+2024/05/13-23:13:15.107 5054 Delete type=2 #260
+2024/05/13-23:13:15.113 5054 Manual compaction at level-1 from '!actors.items.effects!kKj8TKyBkfR0Xtys.wqWYVH0TRMECHo8E.uThvwdcuBRPLlUvW' @ 13852 : 1 .. '!actors.items.effects!vPDYFqNt2EaGEsG7.vSM6as5sVppUkYUk.dNSELIYDQMBopj0Z' @ 0 : 0; will stop at (end)
