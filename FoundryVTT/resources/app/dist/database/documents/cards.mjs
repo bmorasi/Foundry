@@ -1,0 +1,1 @@
+import ServerDocumentMixin from"../backend/server-document.mjs";import BaseCards from"../../../common/documents/cards.mjs";export default class Cards extends(ServerDocumentMixin(BaseCards)){}

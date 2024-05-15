@@ -1,0 +1,1 @@
+import BaseNote from"../../../common/documents/note.mjs";import ServerDocumentMixin from"../backend/server-document.mjs";export default class Note extends(ServerDocumentMixin(BaseNote)){async loadRelatedDocuments(){this.entry||(this.entry=await db.JournalEntry.get(this.entryId))}}

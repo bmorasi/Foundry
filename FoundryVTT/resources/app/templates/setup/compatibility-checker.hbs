@@ -1,0 +1,96 @@
+{{!----------- Search Header ------------}}
+<header class="search">
+    <label class="search">
+        <input name="filter" type="search" placeholder="{{ "SETUP.PackageName" }}" autofocus autocomplete="off">
+    </label>
+</header>
+
+{{!----------- Main Body ------------}}
+<section class="body flexrow">
+
+    {{!----------- Left Column - Categories ------------}}
+    <aside class="flexcol">
+        <nav class="categories flexcol" aria-label="{{ localize "SHEETS.FormNavLabel" }}">
+            <label>{{ localize "SETUP.PackageCategories" }}</label>
+            {{#each categories}}
+            <a class="control category {{#if active}}active{{/if}}" data-category="{{ id }}">
+                {{ label }}
+                <span class="count">[{{ count }}]</span>
+            </a>
+            {{/each}}
+        </nav>
+        <ul class="summary">
+            {{#each summary}}
+                <li class="{{ status }} {{#if (eq count 0)}}understated{{/if}}"
+                    data-tooltip="{{ localize tooltip version=@root.version }}">
+                    <i class="{{ icon }}"></i>
+                    {{ localize label count=count }}
+                </li>
+            {{/each}}
+        </ul>
+    </aside>
+
+    {{!----------- Right Column - Packages ------------}}
+    <section class="entries flexcol">
+
+        {{!----------- Visibility Navigation ------------}}
+        <nav class="visibilities flexrow">
+            <label>{{ localize "SETUP.PackageFilter" }}</label>
+            {{#each filters.types}}
+            <a class="button visibility {{#if active}}active{{/if}}" data-visibility="{{ id }}">{{ localize label }}</a>
+            {{/each}}
+            <div class="visibility-toggle flexrow">
+                {{#each filters.compatibility}}
+                <a class="button visibility {{#if active}}active{{/if}}" data-compatibility="{{ id }}">
+                    {{ localize label }}
+                </a>
+                {{/each}}
+            </div>
+        </nav>
+
+        {{!----------- Packages List ------------}}
+        <div class="entry-list flexcol scrollable {{#if progress}}loading{{/if}}">
+
+            {{#if progress}}
+            <div class="progress">
+                <h3 class="divider">{{ localize progress.label }}</h3>
+                <i class="{{ progress.icon }}"></i>
+            </div>
+            {{/if}}
+
+            {{#each entries}}
+            <div class="entry package flexcol" data-package-id="{{ id }}">
+                <header class="entry-title">
+                    <h3 class="ellipsis">{{ title }}</h3>
+                    {{#if hasLink}}
+                    <a class="control website-link" data-tooltip="SETUP.ViewPackagePage"
+                       aria-label="{{ localize "SETUP.ViewPackagePage" }}" rel="nofollow" target="_blank"
+                       href="https://foundryvtt.com/packages/{{ id }}/">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    {{/if}}
+                    {{#if changelog}}
+                    <a class="control changelog-link" data-tooltip="SETUP.ViewPackageChangelog"
+                       aria-label="{{ localize "SETUP.ViewPackageChangelog" }}" href="{{ changelog }}"
+                       rel="nofollow" target="_blank">
+                        <i class="fas fa-list-dropdown"></i>
+                    </a>
+                    {{/if}}
+                </header>
+                <p class="entry-description ellipsis">{{{ description }}}</p>
+                <div class="entry-metadata tags flexrow">
+                    {{#if url}}
+                    <a class="entry-url ellipsis" href="{{ url }}" title="{{ title }}" target="_blank">{{ url }}</a>
+                    {{/if}}
+                    {{#each tags}}
+                    <span class="tag {{ type }}" {{#if tooltip}}data-tooltip="{{ tooltip }}"{{/if}}>
+                        {{#if icon}}<i class="{{ icon }}"></i>{{/if}}
+                        {{ label }}
+                    </span>
+                    {{/each}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+</section>

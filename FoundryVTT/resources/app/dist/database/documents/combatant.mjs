@@ -1,0 +1,1 @@
+import BaseCombatant from"../../../common/documents/combatant.mjs";import ServerDocumentMixin from"../backend/server-document.mjs";export default class Combatant extends(ServerDocumentMixin(BaseCombatant)){async loadRelatedDocuments(){if(void 0===this.actor){const t=await db.Actor.get(this.actorId);this.actor=t||null}}}

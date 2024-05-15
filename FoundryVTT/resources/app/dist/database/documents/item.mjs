@@ -1,0 +1,1 @@
+import BaseItem from"../../../common/documents/item.mjs";import ServerDocumentMixin from"../backend/server-document.mjs";import{setProperty}from"../../../common/utils/helpers.mjs";import{HTMLField}from"../../../common/data/fields.mjs";export default class Item extends(ServerDocumentMixin(BaseItem)){}
